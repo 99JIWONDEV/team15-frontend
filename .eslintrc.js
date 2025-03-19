@@ -1,5 +1,9 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
+  parserOptions: {
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false,
+    sourceType: 'module',
+  },
   env: {
     browser: true,
     es6: true,

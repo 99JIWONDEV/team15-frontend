@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import theme from "../../lib/styles/theme";
+import styled from 'styled-components';
+import theme from '../../lib/styles/theme';
 
 export const LoginBlock = styled.div`
   width: 100vw;
@@ -8,7 +8,6 @@ export const LoginBlock = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #fafafa;
-
 
   .loginBox {
     margin: 0px auto;
@@ -28,7 +27,10 @@ export const LoginBlock = styled.div`
 
   .loginEmailInput {
     font-size: 15px;
-    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s,
+      background-color 0.2s;
     display: block;
     box-sizing: border-box;
     height: 50px;
@@ -51,7 +53,10 @@ export const LoginBlock = styled.div`
 
   .loginPwInput {
     font-size: 15px;
-    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s,
+      background-color 0.2s;
     display: block;
     box-sizing: border-box;
     height: 50px;
@@ -106,7 +111,10 @@ export const LoginBlock = styled.div`
     font-weight: 700;
     text-decoration: none;
     text-align: center;
-    transition: color 0.1s, background-color 0.1s, border-color 0.1s;
+    transition:
+      color 0.1s,
+      background-color 0.1s,
+      border-color 0.1s;
     border-radius: 4px;
     cursor: pointer;
     &:hover {

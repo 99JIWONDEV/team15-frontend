@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import theme from "../../lib/styles/theme";
+import styled from 'styled-components';
+import theme from '../../lib/styles/theme';
 
 export const RegisterBlock = styled.section`
   display: flex;
@@ -9,12 +9,11 @@ export const RegisterBlock = styled.section`
   width: 100vw;
   position: relative;
 
-
   /* padding-top: 40px;
   width: calc(100% - 18px);
   margin: auto; */
 
-  img{
+  img {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -24,7 +23,6 @@ export const RegisterBlock = styled.section`
     cursor: pointer;
   }
 
-
   .registerBox {
     padding-top: 100px;
     width: 360px;
@@ -32,7 +30,7 @@ export const RegisterBlock = styled.section`
 
     > div {
       margin: 30px auto 30px 0;
-      padding-bottom:20px ;
+      padding-bottom: 20px;
       width: 360px;
       border-bottom: 1px solid ${(props) => props.theme.lightGrayColor};
       > h1 {
@@ -91,7 +89,10 @@ export const RegisterBlock = styled.section`
 
   .emailInput {
     font-size: 15px;
-    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s,
+      background-color 0.2s;
     display: block;
     height: 40px;
     width: 100%;
@@ -121,7 +122,10 @@ export const RegisterBlock = styled.section`
 
   .emailSelect {
     font-size: 15px;
-    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s,
+      background-color 0.2s;
     display: block;
     box-sizing: border-box;
     height: 40px;
@@ -154,14 +158,20 @@ export const RegisterBlock = styled.section`
     min-height: 50px;
     font-weight: 700;
     text-align: center;
-    transition: color 0.1s, background-color 0.1s, border-color 0.1s;
+    transition:
+      color 0.1s,
+      background-color 0.1s,
+      border-color 0.1s;
     border-radius: 4px;
     cursor: pointer;
   }
 
   .pwInput {
     font-size: 15px;
-    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s,
+      background-color 0.2s;
     display: block;
     height: 40px;
     width: 100%;
@@ -183,7 +193,10 @@ export const RegisterBlock = styled.section`
 
   .emailCheck {
     font-size: 15px;
-    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s,
+      background-color 0.2s;
     display: block;
     height: 40px;
     width: 100%;
@@ -206,7 +219,10 @@ export const RegisterBlock = styled.section`
 
   .nameInput {
     font-size: 15px;
-    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s,
+      background-color 0.2s;
     display: block;
     height: 40px;
     width: 100%;
@@ -238,7 +254,10 @@ export const RegisterBlock = styled.section`
     font-weight: 700;
     text-decoration: none;
     text-align: center;
-    transition: color 0.1s, background-color 0.1s, border-color 0.1s;
+    transition:
+      color 0.1s,
+      background-color 0.1s,
+      border-color 0.1s;
     border-radius: 4px;
     cursor: pointer;
     &:hover {
@@ -259,7 +278,10 @@ export const RegisterBlock = styled.section`
     font-weight: 700;
     text-decoration: none;
     text-align: center;
-    transition: color 0.1s, background-color 0.1s, border-color 0.1s;
+    transition:
+      color 0.1s,
+      background-color 0.1s,
+      border-color 0.1s;
     border-radius: 4px;
     cursor: pointer;
     &:hover {
